@@ -1,0 +1,88 @@
+-------------------------------------------------------------------------------
+Test set: PracticeProblemTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 21, Errors: 0, Skipped: 0, Time elapsed: 0.246 s <<< FAILURE! - in PracticeProblemTest
+oddSumTest1  Time elapsed: 0.137 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest1(PracticeProblemTest.java:195)
+
+oddSumTest2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest2(PracticeProblemTest.java:214)
+
+oddSumTest3  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest3(PracticeProblemTest.java:233)
+
+oddSumTest4  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest4(PracticeProblemTest.java:252)
+
+oddSumTest5  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest5(PracticeProblemTest.java:271)
+
+oddSumTest6  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest6(PracticeProblemTest.java:290)
+
+oddSumTest7  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest7(PracticeProblemTest.java:366)
+
+oddSumTest8  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest8(PracticeProblemTest.java:385)
+
+oddSumTest9  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest9(PracticeProblemTest.java:404)
+
+oddSumTest10  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest10(PracticeProblemTest.java:22)
+
+letterToFiveTest2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.letterToFiveTest2(PracticeProblemTest.java:62)
+
+countLetterTest1  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.countLetterTest1(PracticeProblemTest.java:81)
+
+countLetterTest2  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.countLetterTest2(PracticeProblemTest.java:100)
+
+countLetterTest3  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.countLetterTest3(PracticeProblemTest.java:119)
+
+countLetterTest4  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.countLetterTest4(PracticeProblemTest.java:138)
+
+countLetterTest5  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.countLetterTest5(PracticeProblemTest.java:157)
+
+countLetterTest6  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.countLetterTest6(PracticeProblemTest.java:176)
+
+lettersToFiveTest1  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: java.lang.NullPointerException
+	at PracticeProblemTest.lettersToFiveTest1(PracticeProblemTest.java:41)
+
+lettersToFiveTest3  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.lettersToFiveTest3(PracticeProblemTest.java:347)
+
+lettersToFiveTest4  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.lettersToFiveTest4(PracticeProblemTest.java:328)
+
+lettersToFiveTest5  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.lettersToFiveTest5(PracticeProblemTest.java:309)
+

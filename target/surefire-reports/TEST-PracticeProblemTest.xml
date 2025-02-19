@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="PracticeProblemTest" time="0.246" tests="21" errors="0" skipped="0" failures="21">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/workspaces/review-9-pavarasan-karunainathan-ics4u1-02-25/target/test-classes:/workspaces/review-9-pavarasan-karunainathan-ics4u1-02-25/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/opt/java/11.0.14/lib"/>
+    <property name="sun.java.command" value="/workspaces/review-9-pavarasan-karunainathan-ics4u1-02-25/target/surefire/surefirebooter4392877729365767454.jar /workspaces/review-9-pavarasan-karunainathan-ics4u1-02-25/target/surefire 2025-02-19T23-29-57_181-jvmRun1 surefire16994207180352002313tmp surefire_011887368323826398144tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/workspaces/review-9-pavarasan-karunainathan-ics4u1-02-25/target/test-classes:/workspaces/review-9-pavarasan-karunainathan-ics4u1-02-25/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/codespace"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-02-08"/>
+    <property name="java.home" value="/opt/java/11.0.14"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/workspaces/review-9-pavarasan-karunainathan-ics4u1-02-25"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/workspaces/review-9-pavarasan-karunainathan-ics4u1-02-25/target/surefire/surefirebooter4392877729365767454.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14.1+1-LTS"/>
+    <property name="user.name" value="codespace"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.5.0-1025-azure"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-31205"/>
+    <property name="localRepository" value="/home/codespace/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.14.1"/>
+    <property name="user.dir" value="/workspaces/review-9-pavarasan-karunainathan-ics4u1-02-25"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="11.0.14.1+1-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="oddSumTest1" classname="PracticeProblemTest" time="0.137">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest1(PracticeProblemTest.java:195)
+</failure>
+    <system-err><![CDATA[Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest1()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest2()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest3()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest4()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest5()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest6()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest7()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest8()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest9()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest10()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.letterToFiveTest2()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.countLetterTest1()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.countLetterTest2()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.countLetterTest3()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.countLetterTest4()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.countLetterTest5()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.countLetterTest6()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.lettersToFiveTest1()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.lettersToFiveTest3()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.lettersToFiveTest4()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.lettersToFiveTest5()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest1()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest2()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest3()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest4()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:57 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest5()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest6()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest7()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest8()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest9()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.oddSumTest10()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.letterToFiveTest2()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.countLetterTest1()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.countLetterTest2()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.countLetterTest3()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.countLetterTest4()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.countLetterTest5()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.countLetterTest6()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.lettersToFiveTest1()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.lettersToFiveTest3()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.lettersToFiveTest4()] must be declared with a non-empty value.
+Feb 19, 2025 11:29:58 PM org.junit.jupiter.engine.descriptor.DisplayNameUtils determineDisplayName
+WARNING: Configuration error: @DisplayName on [void PracticeProblemTest.lettersToFiveTest5()] must be declared with a non-empty value.
+]]></system-err>
+  </testcase>
+  <testcase name="oddSumTest2" classname="PracticeProblemTest" time="0.001">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest2(PracticeProblemTest.java:214)
+</failure>
+  </testcase>
+  <testcase name="oddSumTest3" classname="PracticeProblemTest" time="0.003">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest3(PracticeProblemTest.java:233)
+</failure>
+  </testcase>
+  <testcase name="oddSumTest4" classname="PracticeProblemTest" time="0.003">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest4(PracticeProblemTest.java:252)
+</failure>
+  </testcase>
+  <testcase name="oddSumTest5" classname="PracticeProblemTest" time="0.005">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest5(PracticeProblemTest.java:271)
+</failure>
+  </testcase>
+  <testcase name="oddSumTest6" classname="PracticeProblemTest" time="0.003">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest6(PracticeProblemTest.java:290)
+</failure>
+  </testcase>
+  <testcase name="oddSumTest7" classname="PracticeProblemTest" time="0.01">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest7(PracticeProblemTest.java:366)
+</failure>
+  </testcase>
+  <testcase name="oddSumTest8" classname="PracticeProblemTest" time="0.006">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest8(PracticeProblemTest.java:385)
+</failure>
+  </testcase>
+  <testcase name="oddSumTest9" classname="PracticeProblemTest" time="0">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest9(PracticeProblemTest.java:404)
+</failure>
+  </testcase>
+  <testcase name="oddSumTest10" classname="PracticeProblemTest" time="0.003">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.oddSumTest10(PracticeProblemTest.java:22)
+</failure>
+  </testcase>
+  <testcase name="letterToFiveTest2" classname="PracticeProblemTest" time="0.001">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.letterToFiveTest2(PracticeProblemTest.java:62)
+</failure>
+  </testcase>
+  <testcase name="countLetterTest1" classname="PracticeProblemTest" time="0.002">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.countLetterTest1(PracticeProblemTest.java:81)
+</failure>
+  </testcase>
+  <testcase name="countLetterTest2" classname="PracticeProblemTest" time="0">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.countLetterTest2(PracticeProblemTest.java:100)
+</failure>
+  </testcase>
+  <testcase name="countLetterTest3" classname="PracticeProblemTest" time="0.002">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.countLetterTest3(PracticeProblemTest.java:119)
+</failure>
+  </testcase>
+  <testcase name="countLetterTest4" classname="PracticeProblemTest" time="0.001">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.countLetterTest4(PracticeProblemTest.java:138)
+</failure>
+  </testcase>
+  <testcase name="countLetterTest5" classname="PracticeProblemTest" time="0.002">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.countLetterTest5(PracticeProblemTest.java:157)
+</failure>
+  </testcase>
+  <testcase name="countLetterTest6" classname="PracticeProblemTest" time="0.001">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.countLetterTest6(PracticeProblemTest.java:176)
+</failure>
+  </testcase>
+  <testcase name="lettersToFiveTest1" classname="PracticeProblemTest" time="0.002">
+    <failure message="java.lang.NullPointerException" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: java.lang.NullPointerException
+	at PracticeProblemTest.lettersToFiveTest1(PracticeProblemTest.java:41)
+</failure>
+  </testcase>
+  <testcase name="lettersToFiveTest3" classname="PracticeProblemTest" time="0.002">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.lettersToFiveTest3(PracticeProblemTest.java:347)
+</failure>
+  </testcase>
+  <testcase name="lettersToFiveTest4" classname="PracticeProblemTest" time="0.001">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.lettersToFiveTest4(PracticeProblemTest.java:328)
+</failure>
+  </testcase>
+  <testcase name="lettersToFiveTest5" classname="PracticeProblemTest" time="0.001">
+    <failure message="Something weird happened" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Something weird happened
+	at PracticeProblemTest.lettersToFiveTest5(PracticeProblemTest.java:309)
+</failure>
+  </testcase>
+</testsuite>
