@@ -4,7 +4,7 @@ public class PracticeProblem{
 		Using a while loop, output how many letters into the word it takes to find 5 instances of the character.
 		If there are no instances of the character, return -1. 
 
-		What if there is more than one, but less than five instances?
+		What if there is more than zero, but less than five instances?
 		*/
 		int index = 0;
 		int count = 0;
